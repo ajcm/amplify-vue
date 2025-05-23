@@ -4,7 +4,7 @@ import '@/assets/main.css';
   import "@aws-amplify/ui-vue/styles.css";
 
   import { Amplify } from 'aws-amplify';
-  import outputs from '../../amplify_outputs.json';
+  import outputs from '../../ amplify_outputs.json';
 
   Amplify.configure(outputs);
 Amplify.configure(outputs);
